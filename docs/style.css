@@ -80,23 +80,18 @@ body {
 
 .header-section {
   background: grey;
-  height: 699px;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
   border: none;
   position: relative;
   width: -webkit-fill-available;
   overflow-x: hidden;
 }
 
-@media screen and (max-width: 1000px) {
-  .header-section {
-    height: 1000px;
-  }
-}
-
 @media screen and (min-width: 1425px) {
   .header-section {
     position: unset;
-    height: 687px;
   }
 }
 
